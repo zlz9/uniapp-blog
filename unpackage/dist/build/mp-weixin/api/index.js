@@ -1,0 +1,1 @@
+"use strict";var e=require("./request.js");var t=new class{async getArticleList(){return await e.request({method:"get",url:"/api/article"})}async comment(){return await e.request({method:"get",url:"/api/article/comment"})}async getArticleByTitle(t){return await e.request({method:"get",url:`/api/article?query=${t}`})}};exports.articleApi=t;

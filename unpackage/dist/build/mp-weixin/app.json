@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/user/user",
+    "pages/category/category",
+    "pages/article_info/article_info",
+    "pages/article_list/article_list"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小Z云笔记",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/首页.png",
+        "selectedIconPath": "static/icon/首页 (1).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/icon/标签.png",
+        "selectedIconPath": "static/icon/标签(1).png",
+        "text": "标签"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icon/user.png",
+        "selectedIconPath": "static/icon/user (1).png",
+        "text": "用户"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "演示定位能力"
+    }
+  },
+  "usingComponents": {}
+}

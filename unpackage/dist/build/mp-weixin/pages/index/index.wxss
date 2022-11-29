@@ -1,0 +1,1 @@
+.articles{width:90%;display:flex;flex-direction:column;align-items:center;margin:20rpx;background:antiquewhite;padding:20rpx;font-family:Comic Sans MS,cursive}.articles .title{font-size:50rpx}.articles .time{font-size:12rpx}.articles .suammary{font-size:30rpx}.articles .tag{font-size:10rpx}.articles .foot{display:flex;width:100%;justify-content:space-around}

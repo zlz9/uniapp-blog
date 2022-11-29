@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/register/register",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/category/category",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/article_info/article_info",
+			"style": {
+				"navigationBarTitleText": "文章详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/article_list/article_list",
+			"style": {
+				"navigationBarTitleText": "文章列表",
+				"enablePullDownRefresh": true
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小Z云笔记",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/首页.png",
+				"selectedIconPath": "static/icon/首页 (1).png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/category/category",
+				"iconPath": "static/icon/标签.png",
+				"selectedIconPath": "static/icon/标签(1).png",
+				"text": "标签"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/icon/user.png",
+				"selectedIconPath": "static/icon/user (1).png",
+				"text": "用户"
+			}
+		]
+	}
+	// "uniIdRouter": {}
+}

@@ -1,0 +1,1 @@
+<view><view wx:for="{{a}}" wx:for-item="item" wx:key="f"><view class="box" bindtap="{{item.e}}"><view class="title">{{item.a}}</view><view class="time"><uni-dateformat wx:if="{{item.c}}" u-i="{{item.b}}" bind:__l="__l" u-p="{{item.c}}"></uni-dateformat></view><view class="summary">{{item.d}}</view></view></view></view>

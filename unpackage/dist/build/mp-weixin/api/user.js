@@ -1,0 +1,1 @@
+"use strict";var e=require("./request.js");var r=new class{async getUserInfo(){return await e.request({method:"get",url:"/api/user/info"})}async logout(){return await e.request({method:"post",url:"/api/user/logout"})}};exports.userApi=r;
